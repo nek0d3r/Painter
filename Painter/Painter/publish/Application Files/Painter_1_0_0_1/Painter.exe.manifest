@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Painter.exe" version="1.0.0.1" publicKeyToken="95de0dc360268ace" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Painter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Painter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Avatar" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Game" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.GamerServices" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Graphics" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Net" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Storage" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Video" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Xact" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Painter.exe" size="29184">
+      <assemblyIdentity name="Painter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nxuYK3Gy49AsE0SLFG/5i/k1viY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\Audio\eraser.xnb" size="2089065">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cMyDD/jy+0+G953K8JRX6DQGNkc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\line.xnb" size="53125">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GjE/pLSwWqG16RfcXotfzcWDxoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Audio\pencil.xnb" size="1251945">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5AtXS6H08Umjxntk5FsgmrTANTc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Draw\colortexture.xnb" size="191">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sWoOIxaW2jPecL4UGjwlUTcyWSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Draw\pencilfill.xnb" size="1000187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+Ll5+Yf5gq7fhnS/VBGE9pjtDxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\circle.xnb" size="262331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uyYP9SKV/w0rYWNMvcVqCkLLpOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\eraser.xnb" size="65723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KQkTExVMxOP2g8xF/E2YvHZje9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\line.xnb" size="262331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b3Nj8gt741XtjIdH0Hd8RcWYMeA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\linepoint.xnb" size="262331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VOKLyeEA8N17LFUr9yRjxKxhg14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\pencil.xnb" size="262331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zUt0sF6T3N+CN4hy3BCFNsbQeMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Graphics\Tools\undo.xnb" size="262331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hf16I0a3xDf7/znDfeMAnXo1zrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Text.xnb" size="20142">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VW5q7hvoVSsp/M3t/RXbF8f7h8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Game.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/y21PfwGnUAkwpPwwaFuIIyWENo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GameThumbnail.png" size="5734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Infinity\Infinity Graphics hp" issuerKeyHash="5cf4cda552e265844190bedf3e1ed0e629c9ff85" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Q1ABiKxzBzCAFAkvYAI86KqcVuk=</DigestValue></Reference></SignedInfo><SignatureValue>Apt4o9lyCIW/RKxeY8jn/aVCisCgVckrdb/Viy5OQTe1/fLMj1ur+VwDFSmzVXtpjFYiG+qrJBj/XXKfhP4DcqEgwRElA2ja+yLKOSAUCKXixJLTCYj+WsLrtDSei2qWiU2XoYEVOT9faDYclc9scveB62BQxgNQEzsgdmYEYx0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oTAqIAI5ArZVnPkrBJxB+Ig3Eb72UkCDCybL6cRJMNrLsf8dOMdeKsOLzsGwCzUmPGxbntdeLAfV4QD/yP4Xdo/RooSkQvT+5IGrswAySPxnz9xxyquifLyxM1ODljPYXDG68hClGeEM8nBN27XbWWQR+Xg5fo8l0l5TBTJ2ggU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e9569caae83c02602f091480300773ac88015043" Description="" Url=""><as:assemblyIdentity name="Painter.exe" version="1.0.0.1" publicKeyToken="95de0dc360268ace" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Infinity\Infinity Graphics hp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DTcMZT78K9Zzi7LRXRznHEF+lpU=</DigestValue></Reference></SignedInfo><SignatureValue>CSFil0/OH4F0SDou1CHnd1sCNgdnf6qs6C40c7yz51XyaVaFhPeDGTbJUz1/5cLPWWojjNv/YicvH0/WFLUVjHZ77PXSb2Yl6KaDEX24LZCNzceKLV5w7Up7PhYQNdXrywCRmK+OqWsc+cNo864zElksL1JRFt6Hrxyagtbw+pQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oTAqIAI5ArZVnPkrBJxB+Ig3Eb72UkCDCybL6cRJMNrLsf8dOMdeKsOLzsGwCzUmPGxbntdeLAfV4QD/yP4Xdo/RooSkQvT+5IGrswAySPxnz9xxyquifLyxM1ODljPYXDG68hClGeEM8nBN27XbWWQR+Xg5fo8l0l5TBTJ2ggU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQElKCRsQK151HM3qIe2DbtTANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoASQBuAGYAaQBuAGkAdAB5AFwASQBuAGYAaQBuAGkAdAB5ACAARwByAGEAcABoAGkAYwBzACAAaABwMB4XDTEzMDIyMDAwMDYzMloXDTE0MDIyMDA2MDYzMlowRTFDMEEGA1UEAx46AEkAbgBmAGkAbgBpAHQAeQBcAEkAbgBmAGkAbgBpAHQAeQAgAEcAcgBhAHAAaABpAGMAcwAgAGgAcDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoTAqIAI5ArZVnPkrBJxB+Ig3Eb72UkCDCybL6cRJMNrLsf8dOMdeKsOLzsGwCzUmPGxbntdeLAfV4QD/yP4Xdo/RooSkQvT+5IGrswAySPxnz9xxyquifLyxM1ODljPYXDG68hClGeEM8nBN27XbWWQR+Xg5fo8l0l5TBTJ2ggUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQABYP1rewPhrQjI7YqsRhDJ9dTc9p8pqvY5s22JV339sBWyR0fXkyFjBSS6P1tp0VWdgEW0KEGpegMIvTfN5qJq3Oigyc05J0scEGFgx8X92xNpLeqGDM16xgkU4OydglMCpJvZLZ+0K1Vw4pGzxojTq/5QyzH24hWtL3ToE87+YA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

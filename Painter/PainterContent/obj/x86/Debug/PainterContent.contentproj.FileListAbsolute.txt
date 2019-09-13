@@ -1,0 +1,4 @@
+C:\Users\sperry\Google Drive\Painter\Painter\PainterContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Infinity Graphics hp\Google Drive\Painter\Painter\PainterContent\obj\x86\Debug\PainterContent.contentprojResolveAssemblyReference.cache
+C:\Users\Infinity Graphics hp\Dropbox\Painter\Painter\PainterContent\obj\x86\Debug\PainterContent.contentprojResolveAssemblyReference.cache
+C:\Users\sperry\Dropbox\Painter\Painter\PainterContent\obj\x86\Debug\ResolveAssemblyReference.cache
